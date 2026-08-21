@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.LogicaBasica;
 
 public class OperadoresMatematicos {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.LogicaBasica;
 
 public class Salario {
     public static void main(String[] args) {
