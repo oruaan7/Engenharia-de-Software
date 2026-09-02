@@ -1,6 +1,6 @@
 package Exercicios;
 
-public class Cachorro extends Animal {
+public class Cachorro extends Animal implements PodeNadar {
 
     public Cachorro(String nome, int idade) {
         super(nome, idade);
@@ -9,5 +9,10 @@ public class Cachorro extends Animal {
     @Override
     public void emitirSom() {
         System.out.println(nome + " esta latindo: Au Au!");
+    }
+
+    @Override
+    public void nadar() {
+        System.out.println("O " + nome + " esta nadando!");
     }
 }

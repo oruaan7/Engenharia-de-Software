@@ -6,6 +6,7 @@ public class TesteAnimais {
         System.out.println("==== Polimorfismo ====");
         Animal animal1 = new Cachorro("Rex", 5);
         Animal animal2 = new Gato("Asteroid", 2);
+        PodeNadar cachorro = new Cachorro("Rex", 5);
 
         animal1.emitirSom();
 
@@ -21,6 +22,10 @@ public class TesteAnimais {
 
         for (Animal animal : animais) {
             animal.emitirSom();
+            animal.comer();
+            animal.dormir();
         }
+
+        cachorro.nadar();
     }
 }
