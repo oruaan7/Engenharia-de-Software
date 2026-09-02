@@ -3,7 +3,7 @@ package Exercicios;
 public class TesteAnimais {
     public static void main(String[] args) {
 
-        System.out.println("==== Usando construtores padroes ====");
+        System.out.println("==== Polimorfismo ====");
         Animal animal1 = new Cachorro("Rex", 5);
         Animal animal2 = new Gato("Asteroid", 2);
 

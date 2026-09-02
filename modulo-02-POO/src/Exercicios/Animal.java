@@ -1,6 +1,6 @@
 package Exercicios;
 
-public class Animal {
+public abstract class Animal {
     protected String nome;
     protected int idade;
 
@@ -17,7 +17,5 @@ public class Animal {
         System.out.println(nome + " esta dormindo.");
     }
 
-    public void emitirSom() {
-        System.out.println(nome + " emitiu um som.");
-    }
+    public abstract void emitirSom();
 }
